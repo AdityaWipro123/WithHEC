@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # === Load the trained model ===
-model = joblib.load("D:/CostEstApp/Model/LatestModelHEC.pkl")
+model = joblib.load("./LatestModelHEC.pkl")
 
 # === Define encoding mappings ===
 cushioning_map = {'CC': 0, 'CH': 1, 'NC': 2}
